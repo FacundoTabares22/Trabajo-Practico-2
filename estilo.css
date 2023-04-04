@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #E9E7DA;
+    height: 100vh; 
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-around;
+}
+
+.uno, .dos, .tres{
+    color: #4d4f52;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+} 
+
+.contimg{
+	display: flex;
+    justify-content: center;
+}
+
+.perfil{
+	position: absolute;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+}
+
+.primero{
+	background-color: #D8D6CC;
+	width: 30%;
+	height: 90px;
+	display: flex; 
+	justify-content: left; 
+	align-items: center; 
+	margin-left: 30%;
+	margin-top: 6vh;
+}
+
+.sub-primero{
+	font-size: 30px;
+    color: #4d4f52;
+    margin-left: 9px;
+}
+
+.icono{
+    color: black;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.texto1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 10vh;
+
+}
+.segundo{
+    background-color: #393e44;
+    width: 50%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sub-segundo{
+    color: #b9b6b6;
+    width: 35%;
+    font-size: 15px;
+}
+
+  .tercero{
+    background-color: #393e44;
+    width: 50%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.2;
+}
+
+.sub-tercero{
+    color: #D8D6CC;
+    padding: 0;
+    font-size: 88px;
+    line-height: 55px;
+    letter-spacing: 5px;
+    margin-left: 75px;
+}
+
+.tercero-superpuesto{
+    width: 50%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
+    margin-left: 700px;
+}
+
+.superter{
+    color: #413f3f;
+    font-size: 30px;
+}
+
+.cuarto{
+    background-color: #393e44;
+    width: 30%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 46%;
+    margin-top: 10vh; 
+}
+
+.sub-cuarto{
+    color: #dddada;
+    font-size: 25px;
+}
+
+.icono-dos{
+    color: #dddada;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.abajo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 1;
+    bottom: 1;
+}
+
+.izquierda{
+    margin-left: 15%;
+}
+
+.derecho{
+    margin-right: 15%;
+}
+
+.texto-izquierdo, .texto-medio, .texto-derecho{
+font-size: 15px;
+}
+
+.numero-2, .texto-medio{
+    color: #D8D6CC;
+}
+
+.numero-1, .numero-2{
+    font-size: 50px;
+}
+
+.iconthree{
+    font-size: 50px
+}
